@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EasyAM.Attendance.Mobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d3e8937d3d55a8b05fe769fb24a5cbac905408d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("EasyAM.Attendance.Mobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EasyAM.Attendance.Mobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

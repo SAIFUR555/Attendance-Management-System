@@ -1,2 +1,3 @@
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\staticwebassets.build.json
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\staticwebassets.build.json
+D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\staticwebassets.build.json
