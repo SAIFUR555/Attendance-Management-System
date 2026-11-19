@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\EasyAM.Attendance\\EasyAM.Attendance.Mobile\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\EasyAM.Attendance.Mobile.styles.css",
+      "PackagePath": "staticwebassets\\EasyAM.Attendance.Mobile.styles.css"
+    },
+    {
+      "Id": "D:\\Projects\\EasyAM.Attendance\\EasyAM.Attendance.Mobile\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Projects\\EasyAM.Attendance\\EasyAM.Attendance.Mobile\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\EasyAM.Attendance\\EasyAM.Attendance.Mobile\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\EasyAM.Attendance\\EasyAM.Attendance.Mobile\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.EasyAM.Attendance.Mobile.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.EasyAM.Attendance.Mobile.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.EasyAM.Attendance.Mobile.props",
+      "PackagePath": "build\\EasyAM.Attendance.Mobile.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.EasyAM.Attendance.Mobile.props",
+      "PackagePath": "buildMultiTargeting\\EasyAM.Attendance.Mobile.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.EasyAM.Attendance.Mobile.props",
+      "PackagePath": "buildTransitive\\EasyAM.Attendance.Mobile.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,3 @@
+wwwroot\background.png
+wwwroot\exampleJsInterop.js
+D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\wwwroot\exampleJsInterop.js

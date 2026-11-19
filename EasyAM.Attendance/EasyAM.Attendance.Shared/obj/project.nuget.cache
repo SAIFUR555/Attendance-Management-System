@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "XnDScy/Hlic=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\EasyAM.Attendance\\EasyAM.Attendance.Shared\\EasyAM.Attendance.Shared.csproj",
+  "expectedPackageFiles": [
+    "D:\\NuGet\\Packages\\microsoft.aspnetcore.authorization\\9.0.15\\microsoft.aspnetcore.authorization.9.0.15.nupkg.sha512",
+    "D:\\NuGet\\Packages\\microsoft.aspnetcore.components\\9.0.15\\microsoft.aspnetcore.components.9.0.15.nupkg.sha512",
+    "D:\\NuGet\\Packages\\microsoft.aspnetcore.components.analyzers\\9.0.15\\microsoft.aspnetcore.components.analyzers.9.0.15.nupkg.sha512",
+    "D:\\NuGet\\Packages\\microsoft.aspnetcore.components.forms\\9.0.15\\microsoft.aspnetcore.components.forms.9.0.15.nupkg.sha512",
+    "D:\\NuGet\\Packages\\microsoft.aspnetcore.components.web\\9.0.15\\microsoft.aspnetcore.components.web.9.0.15.nupkg.sha512",
+    "D:\\NuGet\\Packages\\microsoft.aspnetcore.metadata\\9.0.15\\microsoft.aspnetcore.metadata.9.0.15.nupkg.sha512",
+    "D:\\NuGet\\Packages\\microsoft.extensions.dependencyinjection\\9.0.15\\microsoft.extensions.dependencyinjection.9.0.15.nupkg.sha512",
+    "D:\\NuGet\\Packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.15\\microsoft.extensions.dependencyinjection.abstractions.9.0.15.nupkg.sha512",
+    "D:\\NuGet\\Packages\\microsoft.extensions.logging.abstractions\\9.0.15\\microsoft.extensions.logging.abstractions.9.0.15.nupkg.sha512",
+    "D:\\NuGet\\Packages\\microsoft.extensions.options\\9.0.15\\microsoft.extensions.options.9.0.15.nupkg.sha512",
+    "D:\\NuGet\\Packages\\microsoft.extensions.primitives\\9.0.15\\microsoft.extensions.primitives.9.0.15.nupkg.sha512",
+    "D:\\NuGet\\Packages\\microsoft.jsinterop\\9.0.15\\microsoft.jsinterop.9.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

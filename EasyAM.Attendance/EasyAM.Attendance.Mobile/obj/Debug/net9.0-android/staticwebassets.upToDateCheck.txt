@@ -1,0 +1,8 @@
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html
+D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\wwwroot\css\app.css
+D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\wwwroot\css\bootstrap\bootstrap.min.css
+D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\wwwroot\css\bootstrap\bootstrap.min.css.map
+D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\wwwroot\index.html
