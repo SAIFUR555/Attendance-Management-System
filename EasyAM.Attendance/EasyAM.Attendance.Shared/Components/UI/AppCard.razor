@@ -1,0 +1,48 @@
+﻿@using Microsoft.AspNetCore.Components
+
+<div class="@CardCssClass">
+
+    @if (!string.IsNullOrWhiteSpace(Title) || !string.IsNullOrWhiteSpace(Subtitle))
+    {
+        <div class="card-header bg-white border-0 pb-0">
+
+            @if (!string.IsNullOrWhiteSpace(Title))
+            {
+                <h5 class="card-title fw-semibold mb-1"> @Title  </h5>
+            }
+
+            @if (!string.IsNullOrWhiteSpace(Subtitle))
+            {
+                <p class="text-muted small mb-0"> @Subtitle  </p>
+            }
+
+        </div>
+    }
+
+    <div class="@BodyCssClass"> @ChildContent </div>
+
+</div>
+
+
+@code {
+
+    [Parameter]
+    public string Title { get; set; } = string.Empty;
+
+    [Parameter]
+    public string Subtitle { get; set; } = string.Empty;
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    [Parameter]
+    public string CssClass { get; set; } = "card border-0 shadow-sm rounded-3";
+
+    [Parameter]
+    public string BodyClass { get; set; } = "card-body";
+
+    private string CardCssClass =>  string.IsNullOrWhiteSpace(CssClass) ? "card" : CssClass;
+
+    private string BodyCssClass => string.IsNullOrWhiteSpace(BodyClass) ? "card-body" : BodyClass;
+
+}
