@@ -33,3 +33,4 @@ D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\EasyAM.A
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\refint\EasyAM.Attendance.Shared.dll
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\EasyAM.Attendance.Shared.pdb
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\ref\EasyAM.Attendance.Shared.dll
+D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\EasyAM.Attendance.Shared.sourcelink.json

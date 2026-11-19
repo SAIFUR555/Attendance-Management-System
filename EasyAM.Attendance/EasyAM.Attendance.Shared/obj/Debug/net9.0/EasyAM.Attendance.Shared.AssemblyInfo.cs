@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EasyAM.Attendance.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+931070a126101c966b250cff9dbf3ef4f3fbb0a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e100c6d1ed419d253d8de47f2776b673f54d30a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("EasyAM.Attendance.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EasyAM.Attendance.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
