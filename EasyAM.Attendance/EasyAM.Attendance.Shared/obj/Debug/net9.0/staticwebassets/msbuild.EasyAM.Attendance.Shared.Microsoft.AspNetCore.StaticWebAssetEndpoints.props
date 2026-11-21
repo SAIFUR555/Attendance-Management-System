@@ -16,13 +16,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EasyAM.Attendance.Shared.lhch1c260m.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eUpBnt3svHEAwMAGAoHSK0Fts/n1HuhadLlEIGX2zYo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"217"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eUpBnt3svHEAwMAGAoHSK0Fts/n1HuhadLlEIGX2zYo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Nov 2026 10:27:31 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"217"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eUpBnt3svHEAwMAGAoHSK0Fts/n1HuhadLlEIGX2zYo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Nov 2026 11:14:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EasyAM.Attendance.Shared/EasyAM.Attendance.Shared.lhch1c260m.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EasyAM.Attendance.Shared.lhch1c260m.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lhch1c260m"},{"Name":"integrity","Value":"sha256-eUpBnt3svHEAwMAGAoHSK0Fts/n1HuhadLlEIGX2zYo="},{"Name":"label","Value":"_content/EasyAM.Attendance.Shared/EasyAM.Attendance.Shared.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"217"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eUpBnt3svHEAwMAGAoHSK0Fts/n1HuhadLlEIGX2zYo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Nov 2026 10:27:31 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"217"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eUpBnt3svHEAwMAGAoHSK0Fts/n1HuhadLlEIGX2zYo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Nov 2026 11:14:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EasyAM.Attendance.Shared/exampleJsInterop.6pqz8bsss0.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\exampleJsInterop.js'))</AssetFile>

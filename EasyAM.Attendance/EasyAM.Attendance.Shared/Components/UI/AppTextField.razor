@@ -1,0 +1,139 @@
+﻿@using System
+@using Microsoft.AspNetCore.Components
+
+<div class="mb-3">
+
+    @if (!string.IsNullOrWhiteSpace(Label))
+    {
+        <label for="@ResolvedId" class="form-label fw-semibold">
+
+            @Label
+
+            @if (Required)
+            {
+                <span class="text-danger">*</span>
+            }
+
+        </label>
+    }
+
+
+    <input id="@ResolvedId"  name="@Name" type="@Type"  class="@InputCssClass" placeholder="@Placeholder" value="@Value" maxlength="@MaxLength"autocomplete="@AutoComplete" disabled="@Disabled" readonly="@ReadOnly"  required="@Required"  aria-invalid="@HasError" aria-describedby="@DescriptionId"  @oninput="HandleInput" />
+
+
+    @if (HasError)
+    {
+        <div id="@DescriptionId"class="invalid-feedback d-block">
+
+            @ErrorMessage
+
+        </div>
+    }
+    else if (HasHelpText)
+    {
+        <div id="@DescriptionId" class="form-text">
+
+            @HelpText
+
+        </div>
+    }
+
+</div>
+
+
+@code {
+
+    private readonly string _generatedId = $"ea-text-field-{Guid.NewGuid():N}";
+
+
+    [Parameter]
+    public string Id { get; set; } = string.Empty;
+
+
+    [Parameter]
+    public string Name { get; set; } = string.Empty;
+
+
+    [Parameter]
+    public string Label { get; set; } = string.Empty;
+
+
+    [Parameter]
+    public string Type { get; set; } = "text";
+
+
+    [Parameter]
+    public string Placeholder { get; set; } = string.Empty;
+
+
+    [Parameter]
+    public string HelpText { get; set; } = string.Empty;
+
+
+    [Parameter]
+    public string ErrorMessage { get; set; } = string.Empty;
+
+
+    [Parameter]
+    public string AutoComplete { get; set; } = "on";
+
+
+    [Parameter]
+    public string CssClass { get; set; } = string.Empty;
+
+
+    [Parameter]
+    public int? MaxLength { get; set; }
+
+
+    [Parameter]
+    public bool Disabled { get; set; }
+
+
+    [Parameter]
+    public bool ReadOnly { get; set; }
+
+
+    [Parameter]
+    public bool Required { get; set; }
+
+
+    [Parameter]
+    public string Value { get; set; } = string.Empty;
+
+
+    [Parameter]
+    public EventCallback<string> ValueChanged { get; set; }
+
+
+    private string ResolvedId => string.IsNullOrWhiteSpace(Id) ? _generatedId : Id;
+
+
+    private bool HasError => !string.IsNullOrWhiteSpace(ErrorMessage);
+
+
+    private bool HasHelpText =>!string.IsNullOrWhiteSpace(HelpText);
+
+
+    private string? DescriptionId => HasError || HasHelpText ? $"{ResolvedId}-description": null;
+
+
+    private string InputCssClass
+    {
+        get
+        {
+            var cssClass = string.IsNullOrWhiteSpace(CssClass)  ? "form-control" : $"form-control {CssClass.Trim()}";
+
+            return HasError ? $"{cssClass} is-invalid"  : cssClass;
+        }
+    }
+
+
+    private Task HandleInput(ChangeEventArgs args)
+    {
+        var newValue = args.Value?.ToString() ?? string.Empty;
+
+        return ValueChanged.InvokeAsync(newValue);
+    }
+
+}

@@ -27,3 +27,33 @@
 2026-11-19 10:00:21.129: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-11-19 10:00:21.129: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-11-19 10:01:05.667: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-19 10:26:59.684: [INFO] CurrentProfilePath: D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.exe.WebView2\EBWebView\Default
+2026-11-19 10:26:59.684: [INFO] Profiles total count: 1
+2026-11-19 10:26:59.684: [INFO] Profile: name=Profile 1 path=D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.exe.WebView2\EBWebView\Default lastActive=2026-11-19T10:01:03.804Z
+2026-11-19 10:26:59.684: [INFO] LastUsedProfileDir: D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.exe.WebView2\EBWebView\Default
+2026-11-19 10:26:59.684: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.exe.WebView2\EBWebView\Default lastActive=2026-11-19T10:01:03.804Z
+2026-11-19 10:26:59.684: [INFO] OnDoneLoading sync enabled: 0
+2026-11-19 10:26:59.684: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-19 10:26:59.684: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-19 10:26:59.684: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-19 11:03:21.371: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-19 11:15:47.122: [INFO] CurrentProfilePath: D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.exe.WebView2\EBWebView\Default
+2026-11-19 11:15:47.122: [INFO] Profiles total count: 1
+2026-11-19 11:15:47.122: [INFO] Profile: name=Profile 1 path=D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.exe.WebView2\EBWebView\Default lastActive=2026-11-19T10:27:01.713Z
+2026-11-19 11:15:47.122: [INFO] LastUsedProfileDir: D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.exe.WebView2\EBWebView\Default
+2026-11-19 11:15:47.122: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.exe.WebView2\EBWebView\Default lastActive=2026-11-19T10:27:01.713Z
+2026-11-19 11:15:47.122: [INFO] OnDoneLoading sync enabled: 0
+2026-11-19 11:15:47.122: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-19 11:15:47.122: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-19 11:15:47.122: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-19 11:22:37.697: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-19 11:44:45.855: [INFO] CurrentProfilePath: D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.exe.WebView2\EBWebView\Default
+2026-11-19 11:44:45.855: [INFO] Profiles total count: 1
+2026-11-19 11:44:45.855: [INFO] Profile: name=Profile 1 path=D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.exe.WebView2\EBWebView\Default lastActive=2026-11-19T11:21:48.365Z
+2026-11-19 11:44:45.855: [INFO] LastUsedProfileDir: D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.exe.WebView2\EBWebView\Default
+2026-11-19 11:44:45.855: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.exe.WebView2\EBWebView\Default lastActive=2026-11-19T11:21:48.365Z
+2026-11-19 11:44:45.855: [INFO] OnDoneLoading sync enabled: 0
+2026-11-19 11:44:45.855: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-19 11:44:45.855: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-19 11:44:45.855: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-19 11:45:02.308: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

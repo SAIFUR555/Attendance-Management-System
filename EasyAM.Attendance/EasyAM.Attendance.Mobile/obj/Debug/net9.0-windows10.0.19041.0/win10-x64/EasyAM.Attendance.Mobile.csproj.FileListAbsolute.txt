@@ -570,6 +570,7 @@ D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\obj\Debug\net9.0-windows1
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.AssemblyInfoInputs.cache
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.AssemblyInfo.cs
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.csproj.CoreCompileInputs.cache
+D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.sourcelink.json
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlC.stamp
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.A.478E7ECA.Up2Date
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\EasyAM.Attendance.Mobile.dll

@@ -9,6 +9,7 @@ D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\EasyAM.A
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\EasyAM.Attendance.Shared.AssemblyInfoInputs.cache
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\EasyAM.Attendance.Shared.AssemblyInfo.cs
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\EasyAM.Attendance.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\EasyAM.Attendance.Shared.sourcelink.json
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\rjimswa.dswa.cache.json
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -33,4 +34,3 @@ D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\EasyAM.A
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\refint\EasyAM.Attendance.Shared.dll
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\EasyAM.Attendance.Shared.pdb
 D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\ref\EasyAM.Attendance.Shared.dll
-D:\Projects\EasyAM.Attendance\EasyAM.Attendance.Shared\obj\Debug\net9.0\EasyAM.Attendance.Shared.sourcelink.json

@@ -1,5 +1,364 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+@using System.ComponentModel.DataAnnotations
+@using EasyAM.Attendance.Shared.Components.UI
 
-Welcome to your new app.
+<div class="min-vh-100 d-flex align-items-center bg-light py-4">
+
+    <div class="container">
+
+        <div class="row justify-content-center align-items-stretch g-0">
+
+            <!-- LEFT BRANDING PANEL -->
+
+            <div class="col-lg-5 d-none d-lg-flex">
+
+                <div class="w-100 p-5 text-white rounded-3 d-flex flex-column justify-content-between"
+                     style="background: linear-gradient(145deg, #2563EB, #123B87); min-height: 570px;">
+
+                    <div>
+
+                        <div class="d-flex align-items-center gap-3 mb-5">
+
+                            <div class="bg-white text-primary rounded-3 d-flex align-items-center justify-content-center fw-bold"
+                                 style="width: 48px; height: 48px; font-size: 20px;">
+                                EA
+                            </div>
+
+                            <div>
+                                <h5 class="fw-bold mb-0 text-white">
+                                    EasyAM
+                                </h5>
+
+                                <small class="text-white-50">Attendance Management</small>
+                            </div>
+
+                        </div>
+
+
+                        <h1 class="display-6 fw-bold mb-3">  Welcome to your workplace.</h1>
+
+                        <p class="text-white-50 mb-4">
+                            Manage your attendance, track your workday and stay connected with your organization.
+                        </p>
+
+
+                        <div class="d-flex align-items-center gap-3 mb-3">
+
+                            <span class="bg-white text-primary rounded-circle d-flex align-items-center justify-content-center fw-bold"
+                                  style="width: 36px; height: 36px;">
+                                01
+                            </span>
+
+                            <span class="fw-medium">Simple employee access </span>
+
+                        </div>
+
+
+                        <div class="d-flex align-items-center gap-3 mb-3">
+
+                            <span class="bg-white text-primary rounded-circle d-flex align-items-center justify-content-center fw-bold"
+                                  style="width: 36px; height: 36px;">
+                                02
+                            </span>
+
+                            <span class="fw-medium">  Daily attendance tracking </span>
+
+                        </div>
+
+
+                        <div class="d-flex align-items-center gap-3">
+
+                            <span class="bg-white text-primary rounded-circle d-flex align-items-center justify-content-center fw-bold"
+                                  style="width: 36px; height: 36px;">
+                                03
+                            </span>
+
+                            <span class="fw-medium">
+                                Personal attendance history
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="border-top border-light pt-3">
+
+                        <small class="text-white-50">
+                            EasyAM Attendance · Employee Portal
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- LOGIN PANEL -->
+
+            <div class="col-12 col-sm-10 col-md-8 col-lg-5">
+
+                <AppCard CssClass="card border-0 shadow-lg rounded-3 h-100"
+                         BodyClass="card-body p-4 p-md-5 d-flex flex-column justify-content-center">
+
+
+                    <!-- MOBILE BRAND -->
+
+                    <div class="d-lg-none text-center mb-4">
+
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary text-white rounded-3 fw-bold mb-2"
+                             style="width: 48px; height: 48px; font-size: 20px;">
+                            EA
+                        </div>
+
+                        <h5 class="fw-bold mb-0">
+                            EasyAM
+                        </h5>
+
+                        <small class="text-muted">
+                            Attendance Management
+                        </small>
+
+                    </div>
+
+
+                    <!-- LOGIN HEADER -->
+
+                    <div class="mb-4">
+
+                        <span class="text-primary fw-semibold small text-uppercase">
+                            Employee Portal
+                        </span>
+
+                        <h2 class="fw-bold mt-2 mb-2">
+                            Welcome Back!
+                        </h2>
+
+                        <p class="text-muted mb-0">
+                            Sign in to access your employee account.
+                        </p>
+
+                    </div>
+
+
+                    <!-- INFORMATION MESSAGE -->
+                    @if (!string.IsNullOrWhiteSpace(LoginMessage))
+                    {
+                        <div class="alert alert-info small"
+                             role="status"
+                             aria-live="polite">
+
+                            @LoginMessage
+
+                        </div>
+                    }
+
+
+                    <!-- EMAIL FIELD -->
+
+                    <div class="mb-3">
+
+                        <AppTextField Label="Work Email"
+                                      Type="email"
+                                      Placeholder="Enter your email address"
+                                      AutoComplete="username"
+                                      MaxLength="120"
+                                      @bind-Value="Email"
+                                      ErrorMessage="@EmailError" />
+
+                    </div>
+
+
+                    <!-- PASSWORD FIELD -->
+
+                    <div class="mb-2">
+
+                        <label for="employee-password"
+                               class="form-label fw-semibold">
+
+                            Password
+
+                        </label>
+
+
+                        <div class="input-group">
+
+                            <input id="employee-password"
+                                   class="form-control @(string.IsNullOrWhiteSpace(PasswordError) ? "" : "is-invalid")"
+                                   type="@PasswordInputType"
+                                   placeholder="Enter your password"
+                                   autocomplete="current-password"
+                                   maxlength="256"
+                                   aria-invalid="@(!string.IsNullOrWhiteSpace(PasswordError))"
+                                   @bind="Password"
+                                   @bind:event="oninput" />
+
+
+                            <button type="button"
+                                    class="btn btn-outline-secondary"
+                                    aria-label="Toggle password visibility"
+                                    @onclick="TogglePasswordVisibility">
+
+                                @(IsPasswordVisible ? "Hide" : "Show")
+
+                            </button>
+
+                        </div>
+
+
+                        @if (!string.IsNullOrWhiteSpace(PasswordError))
+                        {
+                            <div class="text-danger small mt-1"
+                                 role="alert">
+
+                                @PasswordError
+
+                            </div>
+                        }
+
+                    </div>
+
+
+                    <!-- FORGOT PASSWORD -->
+
+                    <div class="d-flex justify-content-end mb-4">
+
+                        <button type="button"
+                                class="btn btn-link text-primary text-decoration-none p-0 small"
+                                @onclick="ShowPasswordResetMessage">
+
+                            Forgot password?
+
+                        </button>
+
+                    </div>
+
+
+                    <!-- LOGIN BUTTON -->
+
+                    <div class="d-grid">
+
+                        <AppButton Text="Sign In"
+                                   Variant="primary"
+                                   Type="button"
+                                   OnClick="HandleLogin" />
+
+                    </div>
+
+
+                    <!-- FOOTER -->
+
+                    <div class="text-center mt-4">
+
+                        <p class="small text-muted mb-2">
+                            Need help accessing your account?
+                        </p>
+
+                        <p class="small fw-semibold mb-0">
+                            Contact your system administrator.
+                        </p>
+
+                    </div>
+
+
+                    <div class="border-top mt-4 pt-3 text-center">
+
+                        <small class="text-muted">
+                            © @DateTime.Now.Year EasyAM Attendance
+                        </small>
+
+                    </div>
+
+
+                </AppCard>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+@code {
+
+    private string Email = string.Empty;
+
+    private string Password = string.Empty;
+
+    private string EmailError = string.Empty;
+
+    private string PasswordError = string.Empty;
+
+    private string LoginMessage = string.Empty;
+
+    private bool IsPasswordVisible = false;
+
+
+    private static readonly EmailAddressAttribute EmailValidator = new();
+
+
+    private string PasswordInputType =>
+        IsPasswordVisible ? "text" : "password";
+
+
+    private void TogglePasswordVisibility()
+    {
+        IsPasswordVisible = !IsPasswordVisible;
+    }
+
+
+    private void ShowPasswordResetMessage()
+    {
+        LoginMessage =
+            "Password recovery will be available after backend integration.";
+    }
+
+
+    private Task HandleLogin()
+    {
+
+        EmailError = string.Empty;
+
+        PasswordError = string.Empty;
+
+        LoginMessage = string.Empty;
+
+
+        Email = Email.Trim();
+
+
+        if (string.IsNullOrWhiteSpace(Email))
+        {
+            EmailError = "Please enter your work email.";
+        }
+        else if (!EmailValidator.IsValid(Email))
+        {
+            EmailError = "Please enter a valid email address.";
+        }
+
+
+        if (string.IsNullOrWhiteSpace(Password))
+        {
+            PasswordError = "Please enter your password.";
+        }
+
+
+        if (!string.IsNullOrWhiteSpace(EmailError) ||
+            !string.IsNullOrWhiteSpace(PasswordError))
+        {
+            return Task.CompletedTask;
+        }
+
+
+        LoginMessage =
+            "Your input is ready. Secure authentication API has not been connected yet.";
+
+
+        return Task.CompletedTask;
+    }
+
+}
